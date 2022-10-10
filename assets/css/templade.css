@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'montsserat', Arial, sans-serif;
+}
+header {
+    height: 100px;
+    color: #326CAF;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+.header_logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-left:20px ;
+}
+.header_menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+.menu ul,
+.menu li {
+    list-style: none;
+    display: flex;
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight:700;
+    font-size:15px;
+    padding:15px 25px 15px 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #326CAF;
+}
+.menu li #home,
+.menu li a:hover {
+    color:#FFF;
+    box-shadow: 0px 0px 5px #4e9df7;
+    background-color:#326CAF;
+}
+.banner {
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+.banner .sliders{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width:100vw;
+    overflow: hidden;
+    
+}
+.banner .slidearea1 {
+    width:100vw;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/slide1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.banner .slide {
+    width:100vw;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.banner .slidearea1 .title1,
+.banner .slidearea1 .title2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner .slidearea1 h1 {
+    font-size:50px;
+    font-style: italic;
+}
+.banner .slidearea1 .title1 a {
+    margin-top: 30px;
+    display: block;
+    padding:15px 30px;
+    background-color: #fff;
+    color: #326CAF;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #4e9df7;
+    border: none;
+    border-radius:20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner .slidearea1 .title2 a {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #326CAF;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #4e9df7;
+    border: none;
+    border-radius:20px;
+    text-decoration: none;
+    font-size:25px;
+}
+.banner .slidearea1 .title1 a:hover,
+.banner .slidearea1 .title2 a:hover {
+    color: #fff;
+    background-color: #326CAF;
+}
+.banner .pointers {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+    height: 50px;
+    
+}
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #326CAF;
+    border-radius:8px ;
+    cursor: pointer;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.banner .pointer.active {
+    background-color: #326CAF;
+}
+
+/* QUEM SOMOS */
+
+.quemsomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.quemsomos-title h1{
+    padding:20px;
+    color: #326CAF;
+    font-size: 30px;
+    
+}
+.quemsomos-conteudo p{
+    padding:30px 20px;
+    line-height:25px;
+    font-size: 20px;
+}
+.quemsomos-conteudo h2 {
+    text-align: center;
+    color: #326CAF;
+}
+.quemsomos-conteudo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F27500;
+}
+.quemsomos-conteudo a:hover {
+    text-decoration: underline;
+    
+}
+
+/* EMPRESAS */
+#empresa {
+    background-color: #D4E2FF;
+}
+.empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.empresas-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.empresas h2 {
+    color: #f27500;
+    padding:20px;
+    font-size: 20PX;
+    text-transform: uppercase;
+}
+.empresas h1{
+    color: #1b3a5e;
+    font-size:52px;
+    padding-bottom: 10px;
+}
+
+.empresas-conteudo {
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.empresas-conteudo p {
+    text-align: center;
+    font-size:17px;
+}
+.empresas-conteudo-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logocertificados,
+.logosolucoes,
+.logoconsorcios,
+.logoseguros {
+    margin:15px;
+    width:150px;
+    height: 100px;
+    border-radius:10px;
+    background-color: #FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.empresas-conteudo-logos img {
+    width:110px;
+}
+
+/* SOLUCOES */
+
+.solucoes-title {
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.solucoes-title h1{
+    text-align: center;
+    color: #326CAF;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.solucoes-area {
+    width: 100vw;
+    max-width: 1140px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.solucao{
+    width:310px;
+    height:500px;
+    padding:25px;
+    background-color: #FFF;
+    border-radius:10PX;
+    box-shadow: 0px 0px 10px #BBB;
+}
+.solucao-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color:#D4E2FF;
+}.solucao-logo img {
+    padding:5px;
+    width:90px;
+    height: auto;
+}
+.solucao-title h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.solucao-text p{
+    font-family: sans-serif;
+    color:#444;
+    font-size: 18px;
+}
+.solucao a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:#444;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.solucao a:hover {
+    color: #326CAF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 2000px;
+}
