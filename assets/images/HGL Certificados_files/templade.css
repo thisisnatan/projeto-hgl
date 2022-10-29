@@ -1002,16 +1002,9 @@ footer {
 }
 .footer-comunicacao-area {
     display: flex;
-    
 }
-
 .footer-sociais-area {
     margin-right:35px;
-    
-}
-.footer-endereco,
-.footer-comunicacao-area {
-    justify-content: center;
     
 }
 
@@ -1416,13 +1409,11 @@ footer .direitos span {
     
 }
 
-/* RESPONSIVIDADE MOBILE */
-@media (min-width:554px) and (max-width:768px) {
-    .logo img {
-        margin-left:60px;
-    }
+
+@media (min-width:600px) and (max-width:768px) {
     .header_menu {
         margin-right:200px
+
     }
     .menu {
         position: absolute;
@@ -1431,7 +1422,8 @@ footer .direitos span {
         height: calc(570px - 120px);
         margin-top:120px;
         right:-9px;
-        top:0px;    
+        top:0px;
+        
     }
     .menu-faketrigger,
     .menu-lines {
@@ -1507,7 +1499,6 @@ footer .direitos span {
 
     .banner .s2 .title1 h1 {
         font-size:31px;
-        text-align: center;
     }
     .banner .s2 .title1 h2 {
         word-wrap: break-word;
@@ -1521,321 +1512,53 @@ footer .direitos span {
         margin-top:30px;
     }
     .banner .s2 .title1 h3  span{
-        font-size: 15px;
-        text-align: center;
-    
-    }
-    .banner .s2 .title1 h3  span::before {
-        top: -15px;
-    }
-    .banner .s2 .title2 a {
-        padding: 5px 50px;
-        font-size:20px;
-    }
-
-    /* SLIDE S3 */
-    .banner .slidearea.s3 .slide {
-        flex-direction: column-reverse;
-    }
-    .banner .s3 h1 {
-        font-size:38px;
-    }
-    .banner .s3 .title1 a {
-        padding:10px 22px;
-        font-size: 20px;
-    }
-    .banner .s3 .title2 a {
-        padding: 10px 22px;
-        font-size:20px;
-    }
-
-    /* FIM SLIDES */
-    .quemsomos-conteudo p {
-        max-width:600px;
-        text-align: center;
-    }
-    .solucoes-area {
-        flex-direction: column;
-    }
-    .empresas-title h2 {
-        font-size:18px;
-    }
-    .empresas-title h1 {
-        font-size:33px;
-    }
-    .empresas-conteudo p {
-        max-width: 550px;
-    }
-    .empresas-conteudo-logos {
-        width: 400px;
-        flex-wrap: wrap;
-    }
-    .container.seja-parceiro h1{
-        font-size:27px;
-    }
-    form {
-        right:30px;
-        width: 500px;
-    }
-
-
-    .faq .faq-img {
-        display: none;
-    }
-    .faq-item {
-        max-width:500px;    
-    }
-   
-    details P {
-        font-size: 20px;
-    }
-
-    .faq-item summary h2 {
-        min-width:500px;
-        padding:10px 30px;
-        font-size:20px;
-        
-    }
-    .faq-item summary h2::after {
-        right:30px;
-    }
-    .container.footer {
-        height:auto;
-    
-    }
-    .footer-area {
-        flex-direction: column;
-    
-    }
-    .footer-area1,
-    .footer-area2 {
-        width:630px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .footer-area1 {
-        margin-bottom: 50px;
-    }
-    .footer-logo img {
-        max-width:250px;
-        height: auto;
-    }
-    .footer-menu a {
-        text-align: center;
-    }
-    .footer-endereco {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: auto;
-        margin-bottom:30px;
-    }
-    .footer-sociais {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .footer-orgaos img {
-        max-width:220px;
-        height: auto;
-    }
-}
-
-/* RESPONSIVIDADE MOBILE */
-@media (max-width:554px) {
-    .logo img {
-        margin-left:60px;
-    }
-    .header_menu {
-        margin-right:200px
-    }
-    .menu {
-        position: absolute;
-        z-index: 997;
-        display: none;
-        height: calc(570px - 120px);
-        margin-top:120px;
-        right:-9px;
-        top:0px;    
-    }
-    .menu-faketrigger,
-    .menu-lines {
-        display:block;
-    }
-    .menu-faketrigger:checked ~ .menu {
-        display: flex;
-    }
-    .menu li #home {
-        color:#326CAF;
-        box-shadow:none;
-        background-color:transparent;
-    }
-    .menu ul {
-        flex-direction: column;
-        background-color:rgba(0, 0, 0, 0.9);
-
-    }
-    .menu li a {
-        font-weight:700;
-        font-size:15px;
-        padding:25px 100px 15px 25px;
-        margin: 0;
-        border-radius: 5px;
-        color: #326CAF;
-        position: relative;
-    }
-    /*SLIDE S1 */
-    .banner .slidearea.s1 .slide {
-        flex-direction: column-reverse;
-        
-    }
-    .banner .slidearea.s1 .title1 {
-        justify-content: flex-end;
-        flex: 0;
-    }
-    .banner .s1 h1 {
-        font-size:33px;
-    }
-    
-    .banner .s1 h1 span {
-        font-size:22px;
-        
-    }
-    .banner .s1 h2 {
-        font-size:22px;
-
-    }
-    .banner .s1 h2 span {
-        font-size:33px;
-        
-    }
-  
-    .banner .s1-especialista a {
-        padding:10px 25px;
-        border-radius:25px;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    .banner .slidearea.s1 .title2 {
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 0;
-    }
-    
-    .banner .slidearea.s1 .title2 a {
-        padding:8px 12px;
-        font-size:15px;
-        
-    }
-
-    /* SLIDE S2 */
-
-    .banner .s2 .title1 h1 {
-        font-size:31px;
-        text-align: center;
-    }
-    .banner .s2 .title1 h2 {
-        word-wrap: break-word;
-        text-align: center;
-        margin-top: 10px;
-        font-size:20px;
-        padding: 10px;
-    }
-
-    .banner .s2 .title1 h3 {
-        margin-top:30px;
-    }
-    .banner .s2 .title1 h3  span{
-        font-size: 15px;
-        text-align: center;
-    
-    }
-    .banner .s2 .title1 h3  span::before {
-        top: -15px;
-    }
-    .banner .s2 .title2 a {
-        padding: 5px 50px;
-        font-size:20px;
-    }
-
-    /* SLIDE S3 */
-    .banner .slidearea.s3 .slide {
-        flex-direction: column-reverse;
-    }
-    .banner .s3 h1 {
-        font-size:38px;
-    }
-    .banner .s3 .title1 a {
-        padding:10px 22px;
-        font-size: 20px;
-    }
-    .banner .s3 .title2 a {
-        padding: 10px 22px;
-        font-size:20px;
-    }
-
-    /* FIM SLIDES */
-    .quemsomos-conteudo p {
-        max-width:600px;
-        text-align: center;
-    }
-    .solucoes-area {
-        flex-direction: column;
-    }
-    .empresas-title h2 {
-        font-size:18px;
-    }
-    .empresas-title h1 {
-        font-size:33px;
-    }
-    .empresas-conteudo p {
-        max-width: 550px;
-    }
-    .empresas-conteudo-logos {
-        width: 400px;
-        flex-wrap: wrap;
-    }
-    .container.seja-parceiro h1{
-        font-size:27px;
-    }
-    .seja-parceiro-area {
-        background-image: none;
-        background-color: #F0EFED;
-    }
-    form {
-        top:180px;
-        right:80px;
-        width: 400px;
-        height:620px;
-    }
-
-    .faq .faq-img {
-        display: none;
-    }
-    .faq-item {
-        max-width:400px;    
-    }
-   
-    details P {
         font-size: 17px;
+    
     }
-    .faq-item summary {
-        list-style-type:none ;
+    .banner .s2 .title2 a {
+        padding: 5px 50px;
+        font-size:20px;
     }
-    .faq-item summary h2 {
-        min-width:400px;
-        padding:10px 30px;
-        font-size:17px;
-        
+
+    /* SLIDE S3 */
+    .banner .s3 h1 {
+        font-size:38px;
     }
-    .faq-item summary h2::after {
-        right: 15px;
+    .banner .s3 .title1 a {
+        padding:10px 22px;
+        font-size: 20px;
+    }
+    .banner .s3 .title2 a {
+        padding: 10px 22px;
+        font-size:20px;
+    }
+
+    /* FIM SLIDES */
+
+    .solucoes-area {
+        flex-direction: column;
+    }
+    .empresas-title h2 {
+        font-size:18px;
+    }
+    .empresas-title h1 {
+        font-size:33px;
+    }
+
+    .empresas-conteudo-logos {
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    form {
+        right: 40px;
+    }
+
+    .faq .faq-img {
+        display: none;
     }
     .container.footer {
-        height:auto;
+        height: 450px;
+        flex-wrap: wrap;
     
     }
     .footer-area {
@@ -1846,35 +1569,17 @@ footer .direitos span {
     .footer-area2 {
         width:630px;
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
     }
     .footer-area1 {
         margin-bottom: 50px;
     }
     .footer-logo img {
-        max-width:250px;
+        max-width:200px;
         height: auto;
     }
     .footer-menu a {
         text-align: center;
     }
-    .footer-endereco {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: auto;
-        margin-bottom:30px;
-    }
-    .footer-sociais {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .footer-orgaos img {
-        max-width:220px;
-        height: auto;
-    }
+    
 }
