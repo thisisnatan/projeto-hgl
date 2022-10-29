@@ -324,7 +324,7 @@ header {
 .banner .title1 h6 {
     text-align: center;
     margin-top: 10px;
-    margin-left:-200px;
+    margin-left:-150px;
     color: #DDD;
     text-shadow: 0 0 5px black;
 }
@@ -334,7 +334,7 @@ header {
 
 .banner .slidearea.s1 .title2 a {
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: block;
     padding:10px 25px;
     background-color: #fff;
@@ -934,7 +934,7 @@ details P a:hover{
     
 }
 .faq-item summary {
-    list-style-type:none ;
+    list-style-type:none;
 }
 .faq-item summary h2 {
     max-width:720px;
@@ -951,6 +951,7 @@ details P a:hover{
 .faq-item summary::-webkit-details-marker {
     display: none;
     list-style-type:none ;
+
 }
 .faq-item summary h2::after {
     content: ' ';
@@ -1708,27 +1709,37 @@ footer .direitos span {
         flex: 0;
     }
     .banner .s1 h1 {
-        font-size:33px;
+        font-size:50px;
+        text-align: center;
     }
     
     .banner .s1 h1 span {
-        font-size:22px;
+        font-size:37px;
         
     }
     .banner .s1 h2 {
-        font-size:22px;
+        text-align: center;
+        font-size:30px;
 
     }
     .banner .s1 h2 span {
-        font-size:33px;
-        
+        font-size:32px;
+ 
+    }
+    .banner .s1-especialista {
+        margin: 0;
+        margin-top: 5px;
     }
   
     .banner .s1-especialista a {
-        padding:10px 25px;
+        padding:13px 15px;
         border-radius:25px;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .banner .slidearea.s1 .title1 h6 {
+        margin-left:10px;
     }
     .banner .slidearea.s1 .title2 {
         flex-direction: row;
@@ -1737,8 +1748,8 @@ footer .direitos span {
     }
     
     .banner .slidearea.s1 .title2 a {
-        padding:8px 12px;
-        font-size:15px;
+        padding:8px 10px;
+        font-size:14px;
         
     }
 
@@ -1758,14 +1769,19 @@ footer .direitos span {
 
     .banner .s2 .title1 h3 {
         margin-top:30px;
+        
+        
     }
     .banner .s2 .title1 h3  span{
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
+        margin: 0;
+        padding: 0px 20px;
     
     }
     .banner .s2 .title1 h3  span::before {
         top: -15px;
+        left:-15px;
     }
     .banner .s2 .title2 a {
         padding: 5px 50px;
@@ -1905,6 +1921,12 @@ footer .direitos span {
     .footer-menu a {
         text-align: center;
     }
+    .footer-address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .footer-endereco {
         display: flex;
         flex-direction: column;
@@ -1914,6 +1936,14 @@ footer .direitos span {
         width: auto;
         margin-bottom:30px;
     }
+    .footer-endereco h3,
+    .footer-contatos-area h3,
+    .footer-sociais-area h3{
+        font-size: 21px;
+    }
+    .footer-endereco span {
+        font-size: 17px;
+    }
     .footer-sociais {
         justify-content: center;
         align-items: center;
@@ -1921,13 +1951,21 @@ footer .direitos span {
     }
     .footer-sociais-area {
         margin-top: 50px;
+        
     }
     .footer-comunicacao-area {
         flex-direction: column-reverse;
+        justify-content: center;
     }
     .footer-icons-rede-area {
         justify-content: center;
 
+    }
+    .footer-icons-rede {
+        margin: 10px 10px;
+    }
+    .footer-contatos-area li{
+       padding:10px;
     }
     .footer-orgaos img {
         max-width:220px;
