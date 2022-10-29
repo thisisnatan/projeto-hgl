@@ -1664,6 +1664,8 @@ footer .direitos span {
     .menu-faketrigger,
     .menu-lines {
         display:block;
+        margin-left: 90px;
+        top: 40px;
     }
     .menu-faketrigger:checked ~ .menu {
         display: flex;
@@ -1675,7 +1677,7 @@ footer .direitos span {
     }
     .menu ul {
         flex-direction: column;
-        background-color:rgba(0, 0, 0, 0.9);
+        background-color:rgba(0, 0, 0, 0.8);
 
     }
     .menu li a {
@@ -1786,17 +1788,24 @@ footer .direitos span {
         flex-direction: column;
     }
     .empresas-title h2 {
-        font-size:18px;
+        font-size:16px;
     }
     .empresas-title h1 {
-        font-size:33px;
+        font-size:26px;
     }
     .empresas-conteudo p {
-        max-width: 550px;
+        max-width: 310px;
     }
     .empresas-conteudo-logos {
-        width: 400px;
+        width: 320px;
         flex-wrap: wrap;
+    }
+    .logocertificados,
+    .logosolucoes,
+    .logoconsorcios,
+    .logoseguros {
+        margin:7px;
+        
     }
     .container.seja-parceiro h1{
         font-size:27px;
@@ -1826,13 +1835,13 @@ footer .direitos span {
         list-style-type:none ;
     }
     .faq-item summary h2 {
-        min-width:400px;
-        padding:10px 30px;
-        font-size:17px;
+        min-width:320px;
+        padding:10px 4px;
+        font-size:14px;
         
     }
     .faq-item summary h2::after {
-        right: 15px;
+        right: 12px;
     }
     .container.footer {
         height:auto;
@@ -1844,16 +1853,17 @@ footer .direitos span {
     }
     .footer-area1,
     .footer-area2 {
-        width:630px;
+        width:320px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
     .footer-area1 {
         margin-bottom: 50px;
     }
     .footer-logo img {
-        max-width:250px;
+        max-width:auto;
         height: auto;
     }
     .footer-menu a {
@@ -1872,6 +1882,16 @@ footer .direitos span {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .footer-sociais-area {
+        margin-top: 50px;
+    }
+    .footer-comunicacao-area {
+        flex-direction: column-reverse;
+    }
+    .footer-icons-rede-area {
+        justify-content: center;
+
     }
     .footer-orgaos img {
         max-width:220px;
