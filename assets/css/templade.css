@@ -912,7 +912,7 @@ details {
     
 }
 details>summary {
-    list-style:none;
+    list-style-type:none ;
 }
 details[open] summary ~ * {
     animation: openSummary .7s ease;
@@ -950,6 +950,7 @@ details P a:hover{
 }
 .faq-item summary::-webkit-details-marker {
     display: none;
+    list-style-type:none ;
 }
 .faq-item summary h2::after {
     content: ' ';
