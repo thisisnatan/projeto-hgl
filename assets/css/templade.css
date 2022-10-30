@@ -11,7 +11,7 @@
         
     }
   }
-
+/*
 @keyframes blinkCursos {
     from {
         border-right-color:#FFF;
@@ -29,7 +29,7 @@
         width:150px;
     }
 }
-
+*/
 @keyframes pulsarAnimation {
     0% {
         transform: scale(0.5);
@@ -1112,6 +1112,7 @@ footer .direitos span {
 
 
 /* PAGE SUPORT */
+/* 
 .page-suporte {
     display: flex;
     flex-direction: column;
@@ -1257,7 +1258,7 @@ footer .direitos span {
     color: #FFF;
     box-shadow: 0 0 5px #CCC;
  }
-
+*/
 
 /* REPONSIVIDADE  LAPTOP */
 @media (max-width:1079px) {
@@ -1709,12 +1710,12 @@ footer .direitos span {
         flex: 0;
     }
     .banner .s1 h1 {
-        font-size:50px;
+        font-size:40px;
         text-align: center;
     }
     
     .banner .s1 h1 span {
-        font-size:37px;
+        font-size:35px;
         
     }
     .banner .s1 h2 {
@@ -1723,12 +1724,12 @@ footer .direitos span {
 
     }
     .banner .s1 h2 span {
-        font-size:32px;
+        font-size:30px;
  
     }
     .banner .s1-especialista {
         margin: 0;
-        margin-top: 5px;
+        margin-top:5px;
     }
   
     .banner .s1-especialista a {
@@ -1740,9 +1741,10 @@ footer .direitos span {
     }
     .banner .slidearea.s1 .title1 h6 {
         margin-left:10px;
+        margin-bottom: 15px;
     }
     .banner .slidearea.s1 .title2 {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         margin-top: 0;
     }
@@ -1756,7 +1758,7 @@ footer .direitos span {
     /* SLIDE S2 */
 
     .banner .s2 .title1 h1 {
-        font-size:31px;
+        font-size:28px;
         text-align: center;
     }
     .banner .s2 .title1 h2 {
@@ -1847,7 +1849,7 @@ footer .direitos span {
     }
     form {
         top:180px;
-        right:50px;
+        right:40px;
         width: 330px;
         height:570px;
     }
