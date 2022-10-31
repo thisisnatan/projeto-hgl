@@ -245,7 +245,7 @@ header {
     align-items: center;
 }
 .pag-sup-area-drivers img {
-    width: 250px;
+    max-width: 250px;
     height: auto;
 }
 .pag-sup-area-drivers a {
@@ -271,6 +271,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     height: 300px;
     width:100%;
     background-image: url('../images/fale-conosco.jpg');
@@ -470,7 +471,7 @@ footer .direitos span {
         position: absolute;
         z-index: 997;
         display: none;
-        height: calc(570px - 120px);
+        height: calc(570px - 150px);
         margin-top:120px;
         right:-9px;
         top:0px;
@@ -531,7 +532,7 @@ footer .direitos span {
 }
 
 /* RESPONSIVIDADE MOBILE */
-@media (min-width:554px) and (max-width:768px) {
+@media (min-width:510px) and (max-width:768px) {
     .logo img {
         margin-left:60px;
     }
@@ -542,7 +543,7 @@ footer .direitos span {
         position: absolute;
         z-index: 997;
         display: none;
-        height: calc(570px - 120px);
+        height: calc(570px - 140px);
         margin-top:120px;
         right:-9px;
         top:0px;    
@@ -574,6 +575,13 @@ footer .direitos span {
         position: relative;
 
     }
+    .pag-sup-area-remoto { 
+        width:500px;
+    }
+    .pag-sup-area-drivers img {
+        width: 175px;
+        height: auto;
+    }
     .container.footer {
         height:auto;
     
@@ -584,7 +592,7 @@ footer .direitos span {
     }
     .footer-area1,
     .footer-area2 {
-        width:630px;
+        width:500px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -620,7 +628,7 @@ footer .direitos span {
 }
 
 /* RESPONSIVIDADE MOBILE */
-@media (max-width:554px) {
+@media (max-width:509px) {
     .logo img {
         margin-left:60px;
     }
@@ -631,7 +639,7 @@ footer .direitos span {
         position: absolute;
         z-index: 997;
         display: none;
-        height: calc(570px - 120px);
+        height: calc(570px - 140px);
         margin-top:120px;
         right:-9px;
         top:0px;    
@@ -663,6 +671,20 @@ footer .direitos span {
         border-radius: 5px;
         color: #326CAF;
         position: relative;
+    }
+
+    .pag-sup-area-remoto { 
+        text-align: center;
+        width:320px;
+        font-size:14px;
+        padding: 5px 0px;
+    }
+    .pag-sup-area-two {
+        flex-wrap: wrap;
+    }
+    .pag-sup-area-drivers img {
+        width: 175px;
+        height: auto;
     }
     
     .container.footer {
@@ -742,3 +764,4 @@ footer .direitos span {
         height: auto;
     }
 }
+
