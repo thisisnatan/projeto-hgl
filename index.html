@@ -313,13 +313,14 @@
                 <h1>Seja parceiro da rede que mais 
                     <br>cresce no Brasil</h1>
                 <div class="seja-parceiro-area">
-                    <form>
+                    <form action="assets/php/enviar-email.php" method="post" name="form-seja-parceiro">
                         <h2>Fale conosco</h2>
                         <h5>Envie sua mensagem. Teremos o maior prazer em 
                             responder!
                         </h5>
                         
                         <div class="form-conteudo">
+                            
                             <input type="text" name="name" placeholder="Seu Nome" required/>
                             <input type="email" name="email" placeholder="Seu e-mail" required/>
                             <input type="tel" name="tel" placeholder="Seu telefone" required/>
@@ -328,9 +329,9 @@
                                 <option value="consorcios">Consórcios</option>
                                 <option value="seguros">Seguros</option>
                             </select>
-                            <textarea placeholder="Comentário"></textarea>
+                            <textarea name="mensagem" placeholder="Comentário" required></textarea>
                         </div>
-                        <button submit>Enviar</button>
+                        <button type="submit" name="submit" value="submit">Enviar</button>
                     </form>
                 </div>
             </div>
