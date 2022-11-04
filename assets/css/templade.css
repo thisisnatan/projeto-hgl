@@ -1607,7 +1607,7 @@ footer .direitos span {
         
     }
     .banner .s2 .title1 h3  span{
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         margin: 0;
         padding: 0px 20px;
@@ -1627,7 +1627,7 @@ footer .direitos span {
         flex-direction: column-reverse;
     }
     .banner .s3 h1 {
-        font-size:38px;
+        font-size:35px;
     }
     .banner .s3 .title1 a {
         padding:10px 22px;
@@ -1712,7 +1712,7 @@ footer .direitos span {
         display: none;
     }
     .faq-item {
-        max-width:320px;    
+        max-width:350px;    
     }
     details P {
         font-size: 15px;
@@ -1721,13 +1721,13 @@ footer .direitos span {
         list-style-type:none ;
     }
     .faq-item summary h2 {
-        min-width:320px;
+        min-width:350px;
         padding:10px 4px;
         font-size:14px;
         
     }
     .faq-item summary h2::after {
-        right: 12px;
+        right: 15px;
     }
     .container.footer {
         height:auto;
